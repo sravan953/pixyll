@@ -11,7 +11,7 @@ Android Studio offers an in-built Gradle-build system, which makes things a lot 
 * Download the jar file and place it in the `build/libs/` folder, or
 * Add it as a dependency, by placing `compile 'com.squareup.picasso:picasso:2.5.2'` in your `build.gradle` file
 
-In case you come across a third party library that is neither hosted online, nor has a readily available jar file, the only option you’ve got is to build the jar file yourself. This post is meant to be an under a minute tutorial to help you building the JAR file yourself.
+In case you come across a third party library that is neither hosted online, nor has a readily available jar file, the only option you’ve got is to build the jar file yourself. This post is meant to be an under-a-minute tutorial to help you building the JAR file yourself.
 
 # Building a JAR file using Android Studio
 
