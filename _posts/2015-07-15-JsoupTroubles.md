@@ -3,7 +3,7 @@ layout:     post
 title:      Jsoup Troubles
 date:       2015-05-15
 summary:
-categories: code
+categories: android, java
 ---
 
 Of late, I’ve been working on a project that scrapes content off a webpage. To elaborate on what I’ve been working on: it’s an [Android app](https://github.com/sravan953/Fast-VTU-Results) that fetches university results from my university’s webpage.
