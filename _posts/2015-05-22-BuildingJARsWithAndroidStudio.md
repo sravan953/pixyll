@@ -22,4 +22,4 @@ Consider the [Spotify Web API Wrapper](https://github.com/kaaes/spotify-web-api-
 3. Build - Make Project
 4. In the Terminal, `gradlew jar`
 
-You’re done! The jar file is now found in `build\libs`.
+You’re done! The jar file is now found in `build/libs`.
