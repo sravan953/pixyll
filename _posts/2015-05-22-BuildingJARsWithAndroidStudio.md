@@ -3,7 +3,7 @@ layout:     post
 title:      Building JARs With Android Studio
 date:       2015-05-22
 summary:
-categories: android, java
+categories: android java
 ---
 
 Android Studio offers an in-built Gradle-build system, which makes things a lot easier. Say for example, you’re trying to use [Picasso](http://square.github.io/picasso/) as a third-party library in your Android app. You could go about this in two ways:
