@@ -16,7 +16,7 @@ If the page you’re scraping data from has dynamically loaded content, courtesy
 
 {% highlight ruby %}
 Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").get();
-{% end highlight %}
+{% endhighlight %}
 
 # 2 - Memory issues
 
@@ -24,6 +24,6 @@ More often than not, Jsoup never downloaded the complete source code of the webp
 
 {% highlight ruby %}
 Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").maxBodySize(Integer.MAX_VALUE).get();
-{% end highight %}
+{% endhighight %}
 
 Hoping to find fixes!
