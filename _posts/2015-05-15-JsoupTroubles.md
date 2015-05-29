@@ -14,12 +14,16 @@ Naturally, I turned to Jsoup. While it’s an amazing library for HTML scraping,
 
 If the page you’re scraping data from has dynamically loaded content, courtesy JavaScript, then you’ve hit a dead end. Jsoup is a HTML scraper, you’re better off working with Selenium or HTMLUnit. Just in case you’d like to try your luck, you could try faking the user agent:
 
-`Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").get();`
+{% highlight ruby %}
+Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").get();
+{% endhighlight %}
 
 # 2 - Memory issues
 
 More often than not, Jsoup never downloaded the complete source code of the webpage I wanted to scrap data from. Even using the `maxBodySize` method made no difference:
 
-`Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").maxBodySize(Integer.MAX_VALUE).get();`
+{% highlight ruby %}
+Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").maxBodySize(Integer.MAX_VALUE).get();
+{% endhighight %}
 
 Hoping to find fixes!
