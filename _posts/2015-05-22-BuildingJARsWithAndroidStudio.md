@@ -2,7 +2,7 @@
 layout:     post
 title:      Building JARs With Android Studio
 date:       2015-05-22
-summary:
+summary:    Summary!
 categories: android java
 ---
 
