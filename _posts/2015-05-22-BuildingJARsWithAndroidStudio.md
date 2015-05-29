@@ -13,7 +13,7 @@ Android Studio offers an in-built Gradle-build system, which makes things a lot 
 
 In case you come across a third party library that is neither hosted online, nor has a readily available jar file, the only option you’ve got is to build the jar file yourself. This post is meant to be an under-a-minute tutorial to help you building the JAR file yourself.
 
-# Building a JAR file using Android Studio
+## Building a JAR file using Android Studio
 
 Consider the [Spotify Web API Wrapper](https://github.com/kaaes/spotify-web-api-android),
 
