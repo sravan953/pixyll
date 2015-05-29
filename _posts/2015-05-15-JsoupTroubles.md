@@ -10,7 +10,7 @@ Of late, I’ve been working on a project that scrapes content off a webpage. To
 
 Naturally, I turned to Jsoup. While it’s an amazing library for HTML scraping, its limitations quickly become a barrier to the bigger things you might have planned on doing with it, because it’s next to impossible to find any useful data on a static webpage.
 
-# 1 - JavaScript content
+## 1 - JavaScript content
 
 If the page you’re scraping data from has dynamically loaded content, courtesy JavaScript, then you’ve hit a dead end. Jsoup is a HTML scraper, you’re better off working with Selenium or HTMLUnit. Just in case you’d like to try your luck, you could try faking the user agent:
 
@@ -18,7 +18,7 @@ If the page you’re scraping data from has dynamically loaded content, courtesy
 Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").get();
 {% endhighlight %}
 
-# 2 - Memory issues
+## 2 - Memory issues
 
 More often than not, Jsoup never downloaded the complete source code of the webpage I wanted to scrap data from. Even using the `maxBodySize` method made no difference:
 
