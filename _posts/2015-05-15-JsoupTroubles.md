@@ -22,8 +22,8 @@ Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").get();
 
 More often than not, Jsoup never downloaded the complete source code of the webpage I wanted to scrap data from. Even using the `maxBodySize` method made no difference:
 
-{% highlight ruby %}
+```
 Document doc = Jsoup.connect(URL).userAgent("Chrome/41.0.2228.0").maxBodySize(Integer.MAX_VALUE).get();
-{% endhighight %}
+```
 
 Hoping to find fixes!
